@@ -9,7 +9,9 @@ import img7 from '../images/stack/MongoDB.svg'
 import img8 from '../images/stack/Typescript.svg'
 import img9 from '../images/stack/Bootstrap.svg'
 import img10 from '../images/stack/HTML.png'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import * as Brands from '@fortawesome/free-brands-svg-icons';
+import '../App.css'
 
 export default function Project(){
     return(
@@ -38,10 +40,10 @@ export default function Project(){
                             <div class="btn-grp">
                                 <button class="btn-pink btn-project">Read More</button>
                                 <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <FontAwesomeIcon icon={Brands.faGithub} size="3x" className='icon' />
                                 </a>
                                 <a href="">
-                                    <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                <FontAwesomeIcon icon={Brands.faLinkedin} size="3x" className='icon'/>
                                 </a>
                             </div>
                     </div>
@@ -70,10 +72,10 @@ export default function Project(){
                             <div class="btn-grp">
                                 <button class="btn-pink btn-project">Read More</button>
                                 <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <FontAwesomeIcon icon={Brands.faGithub} size="3x" className='icon' />
                                 </a>
                                 <a href="">
-                                    <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                <FontAwesomeIcon icon={Brands.faLinkedin} size="3x" className='icon'/>
                                 </a>
                             </div>
                     </div>
@@ -102,10 +104,10 @@ export default function Project(){
                             <div class="btn-grp">
                                 <button class="btn-pink btn-project">Read More</button>
                                 <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <FontAwesomeIcon icon={Brands.faGithub} size="3x" className='icon' />
                                 </a>
                                 <a href="">
-                                    <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                <FontAwesomeIcon icon={Brands.faLinkedin} size="3x" className='icon'/>
                                 </a>
                             </div>
                     </div>
@@ -134,10 +136,10 @@ export default function Project(){
                             <div class="btn-grp">
                                 <button class="btn-pink btn-project">Read More</button>
                                 <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <FontAwesomeIcon icon={Brands.faGithub} size="3x" className='icon' />
                                 </a>
                                 <a href="">
-                                    <i title="Live Link" class="fa-solid fa-link icon"></i>
+                                <FontAwesomeIcon icon={Brands.faLinkedin} size="3x" className='icon'/>
                                 </a>
                             </div>
                     </div>
